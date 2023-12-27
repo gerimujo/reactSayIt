@@ -1,0 +1,72 @@
+.frame4111 {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  flex: 1;
+  height: 10.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-2xs);
+  gap: var(--gap-7xl);
+  background-image: url(/public/frame@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: top;
+}
+
+.frame-child5811 {
+  position: relative;
+  width: 24.94rem;
+  height: 5.38rem;
+}
+.frame-parent10211 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl1);
+}
+
+.frame-parent10311 {
+  width: 10.19rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl1);
+}
+
+.frame4211 {
+  background-color: var(--color-red);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+
+.udhetim2711 {
+  width: fit-content;
+  position: relative;
+}
+
+.nentor-20231511 {
+  position: relative;
+  font-size: var(--font-size-sm1);
+  display: inline-block;
+  flex: 1;
+  width: fit-content;
+  flex-shrink: 0;
+}
+
+.udhetim-ne-shengjergj1511 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}

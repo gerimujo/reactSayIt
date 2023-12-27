@@ -1,0 +1,95 @@
+.na-kontaktoni5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  font-weight: 600;
+  color: var(--color-red);
+}
+.phone-alt-icon5 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.a5 {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 600;
+  color: inherit;
+}
+.phone-alt-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.email-icon5 {
+  position: relative;
+  width: 1.38rem;
+  height: 1.38rem;
+  object-fit: cover;
+}
+.infoillyrianhomeal5 {
+  position: relative;
+  font-weight: 600;
+}
+.email-parent3,
+.na-kontaktoni-parent3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.email-parent3 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.na-kontaktoni-parent3 {
+  width: 13.56rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+}
+.frame-child92 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.ellipse-parent43 {
+  align-self: stretch;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+  gap: var(--gap-4xs);
+}
+.ellipse-parent43,
+.frame-parent173,
+.menu-parent3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-parent3 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.frame-parent173 {
+  position: absolute;
+  width: 58.65%;
+  top: 180.25rem;
+  right: 1.07%;
+  left: 40.28%;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

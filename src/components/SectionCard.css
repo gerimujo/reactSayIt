@@ -1,0 +1,106 @@
+.udhetim-ne-shengjergj20 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 76.36%;
+  width: 12.46%;
+  top: 0;
+  right: 87.54%;
+  bottom: 23.64%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nentor-202320 {
+  position: absolute;
+  top: 0;
+  left: 0.76rem;
+}
+.frame47 {
+  position: relative;
+  width: 4.01rem;
+  height: 0.69rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-6xs);
+}
+.udhetim-ne-shengjergj-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.frame-child76,
+.frame-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-child76 {
+  object-fit: cover;
+}
+.frame-parent146,
+.frame-parent147,
+.rectangle-parent5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent5 {
+  height: 1.64rem;
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.frame-parent146,
+.frame-parent147 {
+  flex-direction: column;
+}
+.frame-parent147 {
+  height: 17.83rem;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+}
+.frame-parent146 {
+  gap: var(--gap-30xl);
+}
+.lorem-ipsum-dolor21 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  line-height: 1.13rem;
+}
+.frame-parent145 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-33xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.goLeft {
+  position: absolute;
+  top: 13rem;
+  left: 8%;
+  z-index: 1;
+}
+.goRight {
+  position: absolute;
+  top: 13rem;
+  left: 87%;
+  z-index: 1;
+}

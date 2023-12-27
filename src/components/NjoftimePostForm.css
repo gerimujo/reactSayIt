@@ -1,0 +1,87 @@
+.NjoftimePostForm {
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+.redHeader {
+  width: 100%;
+  height: 7%;
+  background-color: #db343a;
+}
+.redHeader img {
+  width: 5%;
+  margin-top: 5%;
+  margin-left: 90%;
+  cursor: pointer;
+}
+.PostContainer {
+  width: 32%;
+  top: 3%;
+  position: absolute;
+  left: 37%;
+  z-index: 105;
+  height: 73%;
+  background-color: white;
+  opacity: 2;
+}
+.imagepart {
+  width: 80%;
+  height: 33%;
+  border: 1px black solid;
+  margin-left: 10%;
+  margin-top: 9%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.upload {
+  font-size: 14px;
+  margin-top: 34%;
+  margin-left: 40%;
+}
+
+#inputpart1 {
+  font-size: 17px;
+  margin-left: 11%;
+  width: 75%;
+}
+.Pershkriminput {
+  margin-top: 2%;
+  font-size: 15px;
+  margin-left: 11%;
+  height: 100px;
+  resize: none;
+  width: 75%;
+}
+.PostoContainer {
+  background-color: #db343a;
+  display: flex;
+  height: 8%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7%;
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.PostoContainer p {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.imagepart1 {
+  width: 100%;
+  height: 100%;
+}
+.removeimage1 {
+  position: absolute;
+  z-index: 2;
+  margin-left: 70%;
+  margin-top: 3%;
+  cursor: pointer;
+}

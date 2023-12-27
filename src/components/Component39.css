@@ -1,0 +1,187 @@
+.component-39-child,
+.component-39-item {
+  position: absolute;
+  height: 92.11%;
+  width: 100%;
+  top: 7.89%;
+  right: 0.1%;
+  bottom: 0;
+  left: 0;
+
+  background-color: white;
+}
+#inputform {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.component-39-item {
+  height: 9.94%;
+  top: 0;
+  right: 0;
+  bottom: 90.06%;
+  left: 0%;
+
+  background-color: var(--color-red);
+}
+.component-12-icon {
+  position: absolute;
+  height: 2.84%;
+  width: 2.04%;
+  top: 3.87%;
+  right: 2.32%;
+  bottom: 93.29%;
+  left: 95.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.component-39-child1,
+.component-39-inner {
+  position: absolute;
+  height: 7.89%;
+  width: 38.46%;
+  top: 24.56%;
+  right: 52.23%;
+  bottom: 67.54%;
+  left: 9.31%;
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.component-39-child1 {
+  right: 8.7%;
+  left: 52.83%;
+}
+.component-39-child2,
+.component-39-child3,
+.component-39-child4,
+.component-39-child5,
+.component-39-child6,
+.component-39-child8 {
+  position: absolute;
+  height: 7.89%;
+  width: 38.46%;
+  top: 37.28%;
+  right: 52.23%;
+  bottom: 54.82%;
+  left: 9.31%;
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.component-39-child3,
+.component-39-child4,
+.component-39-child5,
+.component-39-child6,
+.component-39-child8 {
+  right: 8.7%;
+  left: 52.83%;
+}
+.component-39-child4,
+.component-39-child5,
+.component-39-child6,
+.component-39-child8 {
+  top: 50.58%;
+  right: 52.23%;
+  bottom: 41.52%;
+  left: 9.31%;
+}
+.component-39-child5,
+.component-39-child6,
+.component-39-child8 {
+  right: 8.7%;
+  left: 52.83%;
+}
+.component-39-child6,
+.component-39-child8 {
+  top: 63.89%;
+  right: 52.53%;
+  bottom: 28.22%;
+  left: 9.01%;
+}
+.component-39-child8 {
+  right: 9.01%;
+  left: 52.53%;
+}
+.emr-mbiemr {
+  position: absolute;
+  width: 14.57%;
+  top: 26.9%;
+  left: 10.73%;
+  display: inline-block;
+}
+.mosha {
+  position: absolute;
+  top: 26.75%;
+  left: 54.05%;
+}
+.arsimi,
+.institucioni-arsimor {
+  position: absolute;
+  top: 39.47%;
+  left: 10.02%;
+}
+.institucioni-arsimor {
+  left: 54.05%;
+}
+.adresa-e-email-it,
+.numri-i-kontaktit {
+  position: absolute;
+  top: 52.78%;
+  left: 10.53%;
+}
+.adresa-e-email-it {
+  left: 54.05%;
+}
+.do-e-themi,
+.vendbanimi {
+  position: absolute;
+  width: 11.44%;
+  top: 66.08%;
+  left: 10.22%;
+  display: inline-block;
+}
+.do-e-themi {
+  width: 14.47%;
+  left: 53.74%;
+}
+.component-39-child9 {
+  position: absolute;
+  height: 7.16%;
+  width: 17.61%;
+  top: 83.63%;
+  right: 41.6%;
+  bottom: 9.21%;
+  left: 40.79%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-crimson-100);
+}
+.update1 {
+  position: absolute;
+  top: 85.38%;
+  left: 44.7%;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.update1 p {
+  margin-top: -0.1rem;
+  align-self: center;
+  justify-self: center;
+}
+.component-39 {
+  width: 988px;
+  height: 684px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+  z-index: 20;
+}
+.errorMessageBashkohu {
+  position: absolute;
+  top: 74%;
+  left: 5%;
+  color: red;
+}

@@ -1,0 +1,118 @@
+.arsyet-perse-duhet1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: center;
+}
+.image-290-icon5 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 18.44rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lorem-ipsum-dolor16 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi);
+}
+.happy-icon1 {
+  position: relative;
+  width: 1.69rem;
+  height: 1.69rem;
+  object-fit: cover;
+}
+.arsyeja-1-uec1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.lorem-ipsum-dolor17 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+}
+.frame-parent120,
+.happy-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.happy-group {
+  flex: 1;
+  height: 7rem;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.frame-parent120 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-57xl);
+}
+.lorem-ipsum-dolor19 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  width: 9.5rem;
+}
+.frame-parent121,
+.happy-parent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.happy-parent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+}
+.frame-parent121 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-46xl);
+}
+.bashkohu-me5 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.5rem;
+  left: 1.88rem;
+  font-weight: 600;
+  z-index: 0;
+}
+.bashkohu-me-wrapper3 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-crimson-200);
+  width: 10.75rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--color-white);
+}
+.arsyet-perse-duhet-te-na-bashk-group {
+  position: absolute;
+  width: 79.87%;
+  top: 37.88rem;
+  right: 9.42%;
+  left: 10.71%;
+  height: 55.13rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.bigcontainer1 {
+  row-gap: 1rem;
+}

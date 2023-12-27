@@ -1,0 +1,184 @@
+.behu-pjese-e,
+.image-293-icon {
+  align-self: stretch;
+  position: relative;
+}
+.behu-pjese-e {
+  font-weight: 600;
+}
+.image-293-icon {
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 15.81rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.jeni-gati-pr {
+  margin: 0;
+}
+.say-it-sht {
+  font-weight: 500;
+  font-family: var(--font-poppins);
+}
+.jeni-gati-pr-container {
+  align-self: stretch;
+  position: relative;
+}
+.behu-pjese-e-organizates-tone-parent,
+.image-293-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-293-parent {
+  height: 24.5rem;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+}
+.behu-pjese-e-organizates-tone-parent {
+  padding: 0 var(--padding-11xl) 0 0;
+  gap: 4.31rem;
+}
+.rregjistrohu {
+  position: absolute;
+  margin: 0 !important;
+
+  margin-left: 50%;
+  font-weight: 600;
+  z-index: 0;
+  font-size: 10px;
+}
+.frame18,
+.rregjistrohu-wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rregjistrohu-wrapper {
+  width: 100%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  height: 2.44rem;
+  flex-shrink: 0;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  max-width: 10.88rem;
+  cursor: pointer;
+}
+.frame18 {
+  align-self: stretch;
+  padding: 0 6.88rem;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frame-parent38,
+.frame-parent39 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-121xl);
+}
+.frame-parent39 {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xl);
+}
+.frame-parent38 {
+  margin: 0 !important;
+  position: absolute;
+  height: 70.28%;
+  width: 100%;
+  top: 10.46%;
+  right: 0;
+  bottom: -5.73%;
+  left: 0;
+  z-index: 0;
+}
+.image-297-icon,
+.menu-icon2 {
+  position: absolute;
+  margin: 0 !important;
+  top: 1.38rem;
+  left: 1.13rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  z-index: 1;
+  cursor: pointer;
+}
+.image-297-icon {
+  top: 0.83rem;
+  left: 40%;
+  width: 6.25rem;
+  height: 2.43rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.iphone-14-15-pro-max-5-inner {
+  position: absolute;
+  margin: 0 !important;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-300);
+  height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 30;
+}
+.iphone-14-15-pro-max-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 77.63rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  gap: 2.25rem;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.bigcontainer-bashkohu {
+  width: 100%;
+  overflow: hidden;
+}
+@keyframes menuhaptelefon {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 310px;
+  }
+}
+
+@keyframes menumbylltelefon {
+  0% {
+    margin-left: 310px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+#menutelefonstatik {
+  margin-left: 0px;
+}
+#menumbylltelefon {
+  animation: 0.2s menumbylltelefon forwards linear;
+}
+#menuhaptelefon {
+  animation: 0.2s menuhaptelefon forwards linear;
+}

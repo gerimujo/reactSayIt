@@ -1,0 +1,41 @@
+.add-circle-icon3 {
+  position: relative;
+  width: 1.81rem;
+  height: 1.81rem;
+}
+.posto1 {
+  flex: 1;
+  position: relative;
+}
+.add-circle-parent1,
+.component-181 {
+  display: flex;
+  justify-content: flex-start;
+}
+.add-circle-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.component-181 {
+  position: absolute;
+  height: 5.18%;
+  width: 11.76%;
+  max-width: 150px;
+  top: 7.91%;
+  right: 68%;
+  bottom: 86.91%;
+  left: 22.24%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-crimson-100);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-xs) var(--padding-lgi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  cursor: pointer;
+}

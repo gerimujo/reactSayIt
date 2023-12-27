@@ -1,0 +1,95 @@
+.image-25-icon13 {
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 15.57rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.image-25-icon13,
+.vizitojme-filan-fistekun13 {
+  align-self: stretch;
+  position: relative;
+}
+.data14 {
+  font-weight: 600;
+}
+.data-23-nentor-2023-parent11,
+.vizitojme-filan-fistekun-parent11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.data-23-nentor-2023-parent11 {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-mini);
+}
+.vizitojme-filan-fistekun-parent11 {
+  gap: var(--gap-mini);
+}
+.lorem-ipsum-dolor22 {
+  font-size: var(--font-size-smi);
+}
+.pershkrim-lorem-container13 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+}
+.frame-parent151 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.do-marr-pjese13 {
+  position: relative;
+  font-weight: 600;
+}
+
+.do-marr-pjese-wrapper11 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-red);
+  width: 11rem;
+  height: 2rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frame-parent150,
+.image-25-parent11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent150 {
+  align-self: stretch;
+  align-items: center;
+  padding: 0 var(--padding-xl) var(--padding-25xl);
+  gap: var(--gap-23xl);
+}
+.image-25-parent11 {
+  position: absolute;
+  width: 86.98%;
+  top: 41.63rem;
+  right: 6.51%;
+  left: 6.51%;
+  background-color: var(--color-white);
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
