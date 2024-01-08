@@ -17,8 +17,9 @@ const Desktop7 = () => {
   const state = useSelector((state) => state.activeFormsState.activeForm);
   useEffect(() => {
     dispatch(getPostsVisitor(page));
+
     if (Number(page) <= 0) {
-      naviagte("/blog/1");
+      navigate("/blog/1");
     }
   }, [page]);
 

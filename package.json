@@ -2,7 +2,7 @@
   "name": "geriprojekt3",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:8080/",
+  "proxy": "http://13.40.132.244:8080/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.0",
     "@fortawesome/free-brands-svg-icons": "^6.5.0",

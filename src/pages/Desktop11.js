@@ -11,15 +11,18 @@ const Desktop11 = () => {
   const login = async () => {
     try {
       const body = { username: username, password: password };
-      const response = await fetch("api/auth/login", {
-        body: JSON.stringify(body),
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
+      const response = await fetch(
+        "http://sayit7-env.eba-fcef4qft.eu-west-2.elasticbeanstalk.com/api/auth/login",
+        {
+          body: JSON.stringify(body),
+          headers: {
+            "Content-Type": "application/json",
+          },
+          method: "POST",
 
-        withCredentials: true,
-      });
+          withCredentials: true,
+        }
+      );
       if (!response.ok) {
         setError("Te dhenat nuk jane te sakta");
       }

@@ -28,6 +28,7 @@ const IPhone1415ProMax3 = () => {
   ];
   useEffect(() => {
     dispatch(getPostsVisitorMobile(page));
+
     if (Number(page) <= 0) {
       naviagte("/blog/1");
     } // Assuming state.postsVisitor is the object you're working with
@@ -37,7 +38,8 @@ const IPhone1415ProMax3 = () => {
     !state.postsVisitor ||
     !state.postsVisitor.data ||
     !state.postsVisitor.data[0] ||
-    !state.postsVisitor.data[0]
+    !state.postsVisitor.data[0][0].id ||
+    !Array.isArray(state.postsVisitor.data[1])
   ) {
     return <div>Loading</div>;
   }
@@ -56,19 +58,30 @@ const IPhone1415ProMax3 = () => {
             >
               <FontAwesomeIcon icon={faChevronLeft} />
             </div>
-            {state.postsVisitor.data[1].map((d) => (
+            {state.postsVisitor.data[1][0].id == null ? (
+              state.postsVisitor.data[1].map((d) => (
+                <div
+                  onClick={() => {
+                    naviagte(`../blog/${d}`, { replace: true });
+                  }}
+                  style={{
+                    backgroundColor: page == d ? " #ee1d23" : "white",
+                    color: page == d ? "white" : "black",
+                  }}
+                >
+                  {d}
+                </div>
+              ))
+            ) : (
               <div
-                onClick={() => {
-                  naviagte(`../blog/${d}`, { replace: true });
-                }}
                 style={{
-                  backgroundColor: page == d ? " #ee1d23" : "white",
-                  color: page == d ? "white" : "black",
+                  backgroundColor: " #ee1d23",
+                  color: "white",
                 }}
               >
-                {d}
+                1
               </div>
-            ))}
+            )}
             <div
               onClick={() => {
                 if (state.postsVisitor.data[0].length < 6) {

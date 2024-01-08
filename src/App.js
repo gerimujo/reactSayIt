@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import React from "react";
 import Desktop5 from "./pages/Desktop5";
 import Desktop41 from "./pages/Desktop41";
 import Desktop40 from "./pages/Desktop40";
@@ -152,6 +153,41 @@ function App() {
     }
   }, [pathname]);
 
+  const LazyIPhone1415ProMax20 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax20")
+  );
+  const LazyDesktop5 = React.lazy(() => import("./pages/Desktop5"));
+
+  const LazyIPhone1415ProMax2 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax2")
+  );
+  const LazyDesktop6 = React.lazy(() => import("./pages/Desktop6"));
+
+  const LazyIPhone1415ProMax3 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax3")
+  );
+  const LazyDesktop7 = React.lazy(() => import("./pages/Desktop7"));
+
+  const LazyIPhone1415ProMax21 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax21")
+  );
+  const LazyDesktop11 = React.lazy(() => import("./pages/Desktop11"));
+
+  const LazyIPhone1415ProMax5 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax5")
+  );
+  const LazyDesktop9 = React.lazy(() => import("./pages/Desktop9"));
+
+  const LazyIPhone1415ProMax4 = React.lazy(() =>
+    import("./pages/IPhone1415ProMax4")
+  );
+  const LazyDesktop8 = React.lazy(() => import("./pages/Desktop8"));
+  const LazyDesktop12 = React.lazy(() => import("./pages/Desktop12"));
+  const LazyDesktop24 = React.lazy(() => import("./pages/Desktop24"));
+  const LazyDesktop26 = React.lazy(() => import("./pages/Desktop26"));
+
+  const LazyDesktopPjestar = React.lazy(() => import("./pages/DesktopPjestar"));
+
   return (
     <Provider store={store}>
       <Routes>
@@ -161,25 +197,66 @@ function App() {
         />
         <Route
           path="/njoftimet/:page"
-          element={windowWidth < 1000 ? <IPhone1415ProMax2 /> : <Desktop6 />}
+          element={
+            <React.Suspense fallback="...Loading">
+              {windowWidth < 1000 ? (
+                <LazyIPhone1415ProMax2 />
+              ) : (
+                <LazyDesktop6 />
+              )}{" "}
+            </React.Suspense>
+          }
         />
         <Route
           path="/blog/:page"
-          element={windowWidth < 1000 ? <IPhone1415ProMax3 /> : <Desktop7 />}
+          element={
+            <React.Suspense fallback="...Loading">
+              {windowWidth < 1000 ? (
+                <LazyIPhone1415ProMax3 />
+              ) : (
+                <LazyDesktop7 />
+              )}{" "}
+            </React.Suspense>
+          }
         />
         <Route
           path="/login"
-          element={windowWidth < 1000 ? <IPhone1415ProMax21 /> : <Desktop11 />}
+          element={
+            <React.Suspense fallback="...Loading">
+              {windowWidth < 1000 ? (
+                <LazyIPhone1415ProMax21 />
+              ) : (
+                <LazyDesktop11 />
+              )}{" "}
+            </React.Suspense>
+          }
         />
         <Route
           path="/bashkohu"
-          element={windowWidth < 1000 ? <IPhone1415ProMax5 /> : <Desktop9 />}
+          element={
+            <React.Suspense fallback="...Loading">
+              {windowWidth < 1000 ? (
+                <LazyIPhone1415ProMax5 />
+              ) : (
+                <LazyDesktop9 />
+              )}{" "}
+            </React.Suspense>
+          }
         />
         <Route
           path="/post/:page"
-          element={windowWidth < 1000 ? <IPhone1415ProMax4 /> : <Desktop8 />}
+          element={
+            <React.Suspense fallback="...Loading">
+              {windowWidth < 1000 ? (
+                <LazyIPhone1415ProMax4 />
+              ) : (
+                <LazyDesktop8 />
+              )}{" "}
+            </React.Suspense>
+          }
         />
         <Route path="/*" element={<h1>404 Error, not found!</h1>} />
+        <Route path="/test" element={<h1>Test</h1>} />
         <Route
           path="/njoftimetadmin/:page"
           element={
@@ -212,30 +289,6 @@ function App() {
             </PrivateRoute>
           }
         />
-
-        <Route path="/desktop-41" element={<Desktop41 />} />
-        <Route path="/desktop-40" element={<Desktop40 />} />
-        <Route
-          path="/iphone-14-15-pro-max-21"
-          element={<IPhone1415ProMax21 />}
-        />
-        <Route
-          path="/iphone-14-15-pro-max-20"
-          element={<IPhone1415ProMax20 />}
-        />
-        <Route path="/desktop-27" element={<Desktop27 />} />
-        <Route path="/desktop-26" element={<Desktop26 />} />
-        <Route path="/desktop-24" element={<Desktop24 />} />
-        <Route path="/desktop-11" element={<Desktop11 />} />
-        <Route path="/iphone-14-15-pro-max-5" element={<IPhone1415ProMax5 />} />
-        <Route path="/desktop-9" element={<Desktop9 />} />
-        <Route path="/desktop-12" element={<Desktop12 />} />
-        <Route path="/iphone-14-15-pro-max-4" element={<IPhone1415ProMax4 />} />
-        <Route path="/iphone-14-15-pro-max-3" element={<IPhone1415ProMax3 />} />
-        <Route path="/iphone-14-15-pro-max-2" element={<IPhone1415ProMax2 />} />
-
-        <Route path="/desktop-7" element={<Desktop7 />} />
-        <Route path="/desktop-6" element={<Desktop6 />} />
       </Routes>
     </Provider>
   );

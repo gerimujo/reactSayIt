@@ -55,17 +55,16 @@ import {
   fetchDataFailure,
 } from "./actions";
 import { useParams } from "react-router-dom";
-
+const URL = "http://sayit7-env.eba-fcef4qft.eu-west-2.elasticbeanstalk.com";
 export const fetchData = (page) => {
   return async (dispatch) => {
     dispatch(fetchDataRequest(FETCH_NJOFTIME_REQUEST));
     try {
       const resoponse = await axios.get(
-        `http://localhost:8080/api/test/getNjoftimet/${page}`,
+        `${URL}/api/test/getNjoftimet/${page}`,
         {
           headers: {
-            Authorization:
-              "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6OTIyMzM3MjAzNjg1NDc3NSwiaWF0IjoxNzAxMjc1NDIzfQ.wQ70FAOjr2P47vZB6KHrRnLxjrMF5sQChMklLY0A9AY3NtFfmYyh60I2JfznTKYcOmoxSCIE0ZFan8gCvHZBAA",
+            Authorization: "Bearer " + localStorage.getItem("token1"),
           },
         }
       );
@@ -91,12 +90,11 @@ export const postoNjoftime = (body1, page) => {
     dispatch(fetchDataRequest(POST_NJOFTIME_REQUEST));
     try {
       const response = await axios.post(
-        `http://localhost:8080/api/test/postonjoftime1/${page}`,
+        `${URL}/api/test/postonjoftime1/${page}`,
         body1,
         {
           headers: {
-            Authorization:
-              "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6OTIyMzM3MjAzNjg1NDc3NSwiaWF0IjoxNzAwOTI1OTI1fQ._6s7J_kija8TRv4W5y8IeIzbwCaJVwLGOOdPG6Qcx8Wh77brgQVBWi-5-qP0jfduVnLoODdTh9SvTgJAW0mnZA",
+            Authorization: "Bearer " + localStorage.getItem("token1"),
           },
         }
       );
@@ -123,11 +121,10 @@ export const deleteNjoftime = (id, page) => {
 
     try {
       const response = await axios.delete(
-        `http://localhost:8080/api/test/deletenjoftime/${page}/${id}`,
+        `${URL}/api/test/deletenjoftime/${page}/${id}`,
         {
           headers: {
-            Authorization:
-              "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6OTIyMzM3MjAzNjg1NDc3NSwiaWF0IjoxNzAwOTI1OTI1fQ._6s7J_kija8TRv4W5y8IeIzbwCaJVwLGOOdPG6Qcx8Wh77brgQVBWi-5-qP0jfduVnLoODdTh9SvTgJAW0mnZA",
+            Authorization: "Bearer " + localStorage.getItem("token1"),
           },
         }
       );
@@ -152,12 +149,11 @@ export const updateNjoftimet = (body, page) => {
     dispatch(fetchDataRequest(UPDATE_NJOFTIME_REQUEST));
     try {
       const response = await axios.put(
-        `http://localhost:8080/api/test/updateNjoftime/${page}`,
+        `${URL}/api/test/updateNjoftime/${page}`,
         body,
         {
           headers: {
-            Authorization:
-              "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6OTIyMzM3MjAzNjg1NDc3NSwiaWF0IjoxNzAwOTI1OTI1fQ._6s7J_kija8TRv4W5y8IeIzbwCaJVwLGOOdPG6Qcx8Wh77brgQVBWi-5-qP0jfduVnLoODdTh9SvTgJAW0mnZA",
+            Authorization: "Bearer " + localStorage.getItem("token1"),
           },
         }
       );
@@ -197,7 +193,7 @@ export const antaretPost = (bashkohuFormState) => {
     } else {
       try {
         const response = await axios.post(
-          "http://localhost:8080/api/test/addAntaretFromVisitors",
+          `${URL}/api/test/addAntaretFromVisitors`,
           bashkohuFormState,
           {
             headers: {
@@ -223,14 +219,11 @@ export const GetAntaretAdmin = () => {
   return async (dispatch) => {
     dispatch(fetchDataRequest(FETCH_ANTARET_ADMIN_REQUEST));
     try {
-      const response = await axios.get(
-        "http://localhost:8080/api/test/getAntaretFromAdmin",
-        {
-          headers: {
-            Authorization: "Bearer " + localStorage.getItem("token1"),
-          },
-        }
-      );
+      const response = await axios.get(`${URL}/api/test/getAntaretFromAdmin`, {
+        headers: {
+          Authorization: "Bearer " + localStorage.getItem("token1"),
+        },
+      });
 
       const data = response.data.body;
       dispatch(fetchDataSuccess(data, FETCH_ANTARET_ADMIN_SUCCESS));
@@ -246,7 +239,7 @@ export const deleteAntar = (id) => {
 
     try {
       const response = await axios.delete(
-        `http://localhost:8080/api/test/deleteArtaret/${id}`,
+        `${URL}/api/test/deleteArtaret/${id}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token1"),
@@ -266,15 +259,11 @@ export const updaetAntaret = (body) => {
   return async (dispatch) => {
     dispatch(fetchDataRequest(UPDATE_ANTARET_REQUEST));
     try {
-      const response = await axios.put(
-        "http://localhost:8080/api/test/updateAntar",
-        body,
-        {
-          headers: {
-            Authorization: "Bearer " + localStorage.getItem("token1"),
-          },
-        }
-      );
+      const response = await axios.put(`${URL}/api/test/updateAntar`, body, {
+        headers: {
+          Authorization: "Bearer " + localStorage.getItem("token1"),
+        },
+      });
 
       const data = response.data.body;
       dispatch(fetchDataSuccess(data, UPDATE_ANTARET_SUCCESS));
@@ -289,7 +278,7 @@ export const postoPostime = (body, page) => {
     dispatch(fetchDataRequest(POST_POSTIME_REQUEST));
     try {
       const response = await axios.post(
-        `http://localhost:8080/api/test/postoPostime/${page}`,
+        `${URL}/api/test/postoPostime/${page}`,
         body,
         {
           headers: {
@@ -311,14 +300,11 @@ export const getPostimet = (page) => {
   return async (dispatch) => {
     dispatch(fetchDataRequest(FETCH_POSTIME_REQUEST));
     try {
-      const response = await axios.get(
-        `http://localhost:8080/api/test/getPostimet/${page}`,
-        {
-          headers: {
-            Authorization: "Bearer " + localStorage.getItem("token1"),
-          },
-        }
-      );
+      const response = await axios.get(`${URL}/api/test/getPostimet/${page}`, {
+        headers: {
+          Authorization: "Bearer " + localStorage.getItem("token1"),
+        },
+      });
 
       const data = response.data.body;
 
@@ -350,7 +336,7 @@ export const UppdePost = (file, page) => {
     dispatch(fetchDataRequest(UPDATE_POSTIMET_REQUEST));
     try {
       const response = await axios.put(
-        `http://localhost:8080/api/test/updatepost/${page}`,
+        `${URL}/api/test/updatepost/${page}`,
         file,
         {
           headers: {
@@ -372,7 +358,7 @@ export const DELETEPOST = (id1, page) => {
     dispatch(fetchDataRequest(DELETE_POSTIMET_REQUEST));
     try {
       const response = await axios.delete(
-        `http://localhost:8080/api/test/deletePostimet/${id1}/${page}`,
+        `${URL}/api/test/deletePostimet/${id1}/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token1"),
@@ -394,7 +380,7 @@ export const getNjoftimetFromVisitors = (page) => {
     dispatch(fetchDataRequest(FETCH_NJOFTIMET_VISITORS_REQUEST));
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/test/getNjoftimetVisitor/${page}`,
+        `${URL}/api/test/getNjoftimetVisitor/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
@@ -426,7 +412,7 @@ export const PostoPjestammeret = (body) => {
       dispatch(fetchDataRequest(SEND_PJESMARRESIT_REQUEST));
       try {
         const response = await axios
-          .post(`http://localhost:8080/api/test/registerPjestar`, body, {
+          .post(`${URL}/api/test/registerPjestar`, body, {
             headers: {
               Authorization: "Bearer " + localStorage.getItem("token"),
             },
@@ -448,7 +434,7 @@ export const GetPjesmarresitNjoftim = (page) => {
     dispatch(fetchDataRequest(FETCH_ANTARET_ADMIN_REQUEST));
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/test/getPjesmarreitNjoftim/${page}`,
+        `${URL}/test/getPjesmarreitNjoftim/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token1"),
@@ -485,7 +471,7 @@ export const pjesmarresitpost = (page, bashkohuFormState) => {
     } else {
       try {
         const response = await axios.post(
-          `http://localhost:8080/api/test/postPjesmarresitNjoftim/${page}`,
+          `${URL}/api/test/postPjesmarresitNjoftim/${page}`,
           bashkohuFormState,
           {
             headers: {
@@ -512,7 +498,7 @@ export const updaetPjesmarresit = (page, body) => {
     dispatch(fetchDataRequest(UPDATE_ANTARET_REQUEST));
     try {
       const response = await axios.put(
-        `http://localhost:8080/api/test/updatePjesmarresitNjoftim/${page}`,
+        `${URL}/api/test/updatePjesmarresitNjoftim/${page}`,
         body,
         {
           headers: {
@@ -534,7 +520,7 @@ export const deleteAntar1 = (id) => {
 
     try {
       const response = await axios.delete(
-        `http://localhost:8080/api/test/deletePjesmarresit/${id}`,
+        `${URL}/api/test/deletePjesmarresit/${id}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token1"),
@@ -554,7 +540,7 @@ export const getPostsVisitor = (page) => {
     dispatch(fetchDataRequest(FETCH_POSTS_VISITOR_REQUEST));
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/test/getPostimetDesktop/${page}`,
+        `${URL}/api/test/getPostimetDesktop/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
@@ -574,7 +560,7 @@ export const getPostimVisitor = (page) => {
     dispatch(fetchDataRequest(FETCH_POSTIM_VISITOR_REQUEST));
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/test/getPostimVisitor/${page}`,
+        `${URL}/api/test/getPostimVisitor/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
@@ -594,7 +580,7 @@ export const getPostsVisitorMobile = (page) => {
     dispatch(fetchDataRequest(FETCH_POSTS_VISITOR_REQUEST));
     try {
       const response = await axios.get(
-        `http://localhost:8080/api/test/getPostimetVisitorMobile/${page}`,
+        `${URL}/api/test/getPostimetVisitorMobile/${page}`,
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
