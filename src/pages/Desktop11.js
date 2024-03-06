@@ -11,6 +11,7 @@ const Desktop11 = () => {
   const login = async () => {
     try {
       const body = { username: username, password: password };
+
       const response = await fetch("http://localhost:8080/api/auth/login", {
         body: JSON.stringify(body),
         headers: {
@@ -20,6 +21,7 @@ const Desktop11 = () => {
 
         withCredentials: true,
       });
+
       if (!response.ok) {
         setError("Te dhenat nuk jane te sakta");
       }

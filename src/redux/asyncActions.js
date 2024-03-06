@@ -53,10 +53,10 @@ import {
   fetchDataRequest,
   fetchDataSuccess,
   fetchDataFailure,
-  m,
 } from "./actions";
 import { useParams } from "react-router-dom";
 const URL = "http://localhost:8080";
+
 export const fetchData = (page) => {
   return async (dispatch) => {
     dispatch(fetchDataRequest(FETCH_NJOFTIME_REQUEST));
@@ -436,6 +436,7 @@ export const GetPjesmarresitNjoftim = (page) => {
     try {
       const response = await axios.get(
         `${URL}/api/test/getPjesmarreitNjoftim/${page}`,
+
         {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token1"),
