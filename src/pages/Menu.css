@@ -1,0 +1,60 @@
+@keyframes menuhap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes menumbyll {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.menu11 {
+  height: 100%;
+  max-width: 300px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  background-color: #161d21;
+  z-index: 3;
+}
+#menustatik {
+  width: 0%;
+}
+#menuhap {
+  animation: menuhap 0.2s linear forwards;
+}
+#menumbyll {
+  animation: menumbyll 0.2s linear forwards;
+}
+.closeIconMenu {
+  z-index: 3;
+  position: relative;
+  top: 3%;
+  left: 85%;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.kryefaqja {
+  color: white;
+  font-family: var(--font-poppins);
+  position: relative;
+  font-size: 14px;
+  top: 5%;
+  cursor: pointer;
+  left: 10%;
+}
+.line1 {
+  width: 100%;
+  height: 1px;
+  opacity: 0.6;
+  position: relative;
+  background-color: white;
+  top: 5%;
+}

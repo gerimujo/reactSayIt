@@ -1,0 +1,46 @@
+.postimet-me-te {
+  position: relative;
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 27.31rem;
+}
+.te-gjitha-postimet {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.56rem;
+  left: 1.63rem;
+  font-weight: 600;
+  z-index: 0;
+}
+.te-gjitha-postimet-wrapper {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-red);
+  width: 14.88rem;
+  height: 3rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.postimet-me-te-fundit-parent {
+  position: absolute;
+  width: 88.89%;
+  top: 124.19rem;
+  right: 5.56%;
+  left: 5.56%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-119xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

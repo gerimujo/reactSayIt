@@ -1,0 +1,93 @@
+.image-297-icon1 {
+  position: absolute;
+  top: 3.13rem;
+  left: 8.24rem;
+  width: 10rem;
+  height: 3.89rem;
+  cursor: pointer;
+  object-fit: cover;
+}
+.kryefaqja3 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.kryefaqja-parent1 {
+  position: absolute;
+  width: 34.13%;
+  top: 4.5rem;
+  right: 30.55%;
+  left: 35.32%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-20xl);
+}
+.log-in5 {
+  position: absolute;
+  margin: 0 !important;
+
+  font-weight: 600;
+  z-index: 0;
+}
+.log-in-wrapper3 {
+  cursor: pointer;
+  position: absolute;
+  top: 4rem;
+  right: 7.03rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  width: 6.94rem;
+  height: 2.57rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.circled-play-icon1 {
+  position: absolute;
+  top: 20.5rem;
+  left: 28.38rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+.frame40 {
+  align-self: stretch;
+  position: relative;
+  height: 47.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 93%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame-parent85 {
+  position: relative;
+  width: 82.74%;
+  top: 15.88rem;
+  right: 7.86%;
+  left: 9.4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25rem;
+  gap: 10.5rem;
+}
+.desktop-8 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

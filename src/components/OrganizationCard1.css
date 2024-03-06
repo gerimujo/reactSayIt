@@ -1,0 +1,167 @@
+.kryefaqja5 {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+}
+.kryefaqja-parent3 {
+  position: absolute;
+  width: 34.88%;
+  top: 3.25rem;
+  right: 30.64%;
+  left: 34.48%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.log-in7 {
+  position: absolute;
+  margin: 0 !important;
+
+  font-weight: 600;
+  z-index: 0;
+}
+.log-in-wrapper5 {
+  cursor: pointer;
+  position: absolute;
+  height: 5.71%;
+  top: 6.42%;
+  right: 8.31rem;
+  bottom: 87.87%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  width: 6.94rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-302-icon {
+  position: absolute;
+  top: 2.63rem;
+  left: 8.31rem;
+  width: 10rem;
+  height: 2.5rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.span7 {
+  color: var(--color-red);
+}
+.say-it-organization-container5 {
+  position: relative;
+  line-height: 5.63rem;
+  display: inline-block;
+  width: 59.19rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+}
+.empowering-youth-voices5 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.say-it-organization-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bashkohu-me7 {
+  position: absolute;
+  margin: 0 !important;
+  font-size: 17px;
+  font-weight: 600;
+  z-index: 0;
+}
+.bashkohu-me-wrapper5 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  width: 12rem;
+  height: 2.4rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.postimet5 {
+  position: relative;
+  display: inline-block;
+  width: 5rem;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+.frame-child91 {
+  position: relative;
+  width: 0.46rem;
+  margin-left: -2%;
+  height: 1.91rem;
+}
+.postimet-group {
+  flex: 1;
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-3xs);
+
+  font-size: var(--font-size-5xl);
+}
+.frame-parent155,
+.frame-parent156 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent156 {
+  width: 24.75rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-poppins);
+}
+.frame-parent155 {
+  position: absolute;
+  width: 65.99%;
+  top: 14.88rem;
+  right: 17%;
+  left: 17%;
+  height: 24.94rem;
+  flex-direction: column;
+  gap: var(--gap-65xl);
+  text-align: center;
+  font-size: var(--font-size-91xl);
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.frame49 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 45rem;
+  overflow: hidden;
+  background-image: url(/public/frame12@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

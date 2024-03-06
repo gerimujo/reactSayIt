@@ -1,0 +1,95 @@
+.na-kontaktoni3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-10xl);
+  font-weight: 600;
+  color: var(--color-red);
+}
+.phone-alt-icon3 {
+  position: relative;
+  width: 1.13rem;
+  height: 1.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.a3 {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 600;
+  color: inherit;
+}
+.phone-alt-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.email-icon3 {
+  position: relative;
+  width: 1.38rem;
+  height: 1.38rem;
+  object-fit: cover;
+}
+.infoillyrianhomeal3 {
+  position: relative;
+  font-weight: 600;
+}
+.email-parent1,
+.na-kontaktoni-parent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.email-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xs);
+}
+.na-kontaktoni-parent1 {
+  width: 13.56rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+}
+.frame-child59 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.ellipse-parent33 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-4xs);
+  cursor: pointer;
+}
+.ellipse-parent33,
+.frame-parent114,
+.menu-parent1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu-parent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.frame-parent114 {
+  position: absolute;
+  width: 58.93%;
+  top: 243.94rem;
+  right: 0.59%;
+  left: 40.48%;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-81xl);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

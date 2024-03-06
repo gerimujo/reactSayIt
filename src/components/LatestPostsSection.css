@@ -1,0 +1,215 @@
+.postimet-me-te1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.frame-child64 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+.frame-child64,
+.udhetim31 {
+  position: relative;
+}
+.udhetim-wrapper11 {
+  flex: 1;
+  background-color: var(--color-red);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+.nentor-202319 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  width: 5rem;
+  flex-shrink: 0;
+}
+.frame-parent127 {
+  width: 10.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.udhetim-ne-shengjergj19 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+}
+.frame-parent126,
+.frame-parent128,
+.rectangle-parent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent126 {
+  margin: 0 !important;
+  position: absolute;
+  top: 9.88rem;
+  left: 1.13rem;
+  width: 19.06rem;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.frame-parent128,
+.rectangle-parent3 {
+  align-self: stretch;
+}
+.rectangle-parent3 {
+  height: 15.63rem;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frame-parent128 {
+  flex-direction: row;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-5xs);
+}
+.frame-parent125,
+.postimet-me-te-fundit-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent125 {
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+}
+.postimet-me-te-fundit-group {
+  align-items: center;
+  gap: var(--gap-26xl);
+}
+.te-gjitha-postimet1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.56rem;
+  left: 1.25rem;
+  font-weight: 600;
+  z-index: 0;
+}
+.frame-parent124,
+.te-gjitha-postimet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.te-gjitha-postimet-container {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-red);
+  width: 11.38rem;
+  height: 2.63rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  position: relative;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.frame-parent124 {
+  position: absolute;
+  height: 15.87%;
+  width: 92.12%;
+  top: 47.21%;
+  right: 3.93%;
+  bottom: 36.92%;
+  left: 3.95%;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+
+.frame411 {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  flex: 1;
+  height: 18.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-2xs);
+  gap: var(--gap-7xl);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: top;
+}
+
+.frame-child581 {
+  position: relative;
+  width: 24.94rem;
+  height: 9.38rem;
+}
+.frame-parent1021 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl1);
+}
+
+.frame-parent1031 {
+  width: 13.19rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+
+.frame421 {
+  flex: 1;
+  background-color: var(--color-red);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+}
+
+.udhetim271 {
+  flex: 1;
+  position: relative;
+}
+
+.nentor-2023151 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 5.75rem;
+  flex-shrink: 0;
+}
+
+.udhetim-ne-shengjergj151 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+}

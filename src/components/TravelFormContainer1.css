@@ -1,0 +1,122 @@
+.udhetim-ne-shengjergj21 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: fit-content;
+  flex-shrink: 0;
+}
+.calendar-alt-icon {
+  position: relative;
+  width: 0.81rem;
+  height: 0.81rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nentor-202321 {
+  position: relative;
+}
+.calendar-alt-parent,
+.udhetim-ne-shengjergj-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calendar-alt-parent {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-2xs);
+}
+.udhetim-ne-shengjergj-group {
+  width: 55.56rem;
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.frame-child84,
+.frame-icon2 {
+  position: relative;
+  max-width: 100%;
+
+  overflow: hidden;
+}
+.frame-icon2 {
+  align-self: stretch;
+  height: 35.25rem;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.frame-child84 {
+  flex: 1;
+  height: 5.63rem;
+  object-fit: cover;
+}
+.rectangle-parent6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xl1);
+  z-index: 1;
+}
+.angle-left {
+  position: absolute;
+  margin: 0 !important;
+  top: 15.43rem;
+  left: 19.72rem;
+  background-color: var(--color-gray-400);
+  width: 1.56rem;
+  height: 1.56rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frame-parent153,
+.frame-parent154 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent154 {
+  padding: 0 0 0 var(--padding-61xl);
+  position: relative;
+  gap: var(--gap-3xl);
+}
+.frame-parent153 {
+  padding: 0 var(--padding-71xl) 0 0;
+  gap: var(--gap-55xl);
+}
+.lorem-ipsum-dolor23 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.88rem;
+}
+.frame-parent152 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-110xl);
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.goLeft11 {
+  position: absolute;
+  top: 25rem;
+  left: 11%;
+  z-index: 1;
+  cursor: pointer;
+}
+.goRight21 {
+  position: absolute;
+  top: 25rem;
+  left: 85%;
+  cursor: pointer;
+  z-index: 1;
+}

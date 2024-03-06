@@ -1,0 +1,56 @@
+.arsimi1,
+.emermbiemer,
+.instituti-arsimor,
+.mosha1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.arsimi1,
+.instituti-arsimor,
+.mosha1 {
+  left: 11.39%;
+}
+.arsimi1,
+.instituti-arsimor {
+  left: 18.41%;
+}
+.instituti-arsimor {
+  left: 28.62%;
+}
+.do-e-themi2,
+.email,
+.numri-i-kontaktit1,
+.vendbanim {
+  position: absolute;
+  top: 0;
+  left: 44.21%;
+  font-weight: 600;
+}
+.do-e-themi2,
+.email,
+.vendbanim {
+  left: 60.26%;
+}
+.do-e-themi2,
+.vendbanim {
+  left: 77.76%;
+}
+.do-e-themi2 {
+  left: 90.88%;
+
+  width: 120px;
+}
+.component-45 {
+  position: absolute;
+  width: 69.26%;
+  top: 11.81rem;
+  right: 9.85%;
+  left: 20.9%;
+  height: 1.06rem;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

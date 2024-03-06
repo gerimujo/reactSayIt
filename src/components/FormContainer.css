@@ -1,0 +1,29 @@
+.add-circle-icon4 {
+  position: relative;
+  width: 20%;
+  height: 2.06rem;
+}
+.postimet4 {
+  flex: 1;
+  position: relative;
+}
+.add-circle-parent2,
+.frame-parent144 {
+  z-index: 50;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frame-parent144 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

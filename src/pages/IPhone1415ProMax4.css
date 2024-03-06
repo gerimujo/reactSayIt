@@ -1,0 +1,60 @@
+.image-296-icon1 {
+  position: absolute;
+  top: 1.69rem;
+  left: calc(50% - 50px);
+  width: 6.25rem;
+  height: 2.43rem;
+  object-fit: cover;
+}
+.menu-icon3 {
+  position: absolute;
+  top: 2.31rem;
+  left: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.circled-play-icon {
+  position: relative;
+  width: 100%;
+  height: 3.13rem;
+  object-fit: cover;
+}
+.frame-parent56,
+.frame20 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frame20 {
+  align-self: stretch;
+  flex: 1;
+
+  max-height: 23%;
+  margin-top: 3rem;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2.06rem 0.63rem;
+  max-width: 95%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.frame-parent56 {
+  position: relative;
+  width: 90.23%;
+
+  top: 8.56rem;
+  right: 4.65%;
+  left: 5.12%;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  gap: 5%;
+}
+.iphone-14-15-pro-max-4 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+
+  overflow: hidden;
+}

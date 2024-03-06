@@ -1,0 +1,122 @@
+.image-295-icon {
+  position: absolute;
+  top: 1.69rem;
+  left: calc(50% - 49.5px);
+  width: 6.25rem;
+  height: 2.43rem;
+  object-fit: cover;
+}
+.menu-icon4 {
+  position: absolute;
+  top: 1.75rem;
+  left: 1.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.span6 {
+  color: var(--color-red);
+}
+.say-it-organization-container4 {
+  position: relative;
+  line-height: 5.63rem;
+  display: inline-block;
+  width: fit-content;
+  margin-right: 15px;
+}
+.empowering-youth-voices4 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-poppins);
+  text-align: center;
+}
+.say-it-organization-parent1 {
+  width: 24.56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bashkohu-me6 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.44rem;
+  left: 1.44rem;
+  font-weight: 600;
+  z-index: 0;
+}
+.bashkohu-me-wrapper4 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-red);
+  width: 7.56rem;
+  height: 1.88rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.frame-child83,
+.njoftimet18 {
+  position: relative;
+}
+.frame-child83 {
+  width: 0.46rem;
+  height: 1.09rem;
+}
+.njoftimet-container {
+  width: 5.31rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-mid);
+}
+.frame-parent148,
+.frame-parent149 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent149 {
+  width: 23.94rem;
+  height: 1.88rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 0 var(--padding-51xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-poppins);
+}
+.frame-parent148 {
+  position: absolute;
+  width: 91.39%;
+  top: 7.13rem;
+  right: 2.56%;
+  left: 6.05%;
+  height: 13.69rem;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.frame48 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 26.25rem;
+  overflow: hidden;
+  background-image: url(/public/frame6@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-abhaya-libre-extrabold);
+}

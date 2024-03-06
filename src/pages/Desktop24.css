@@ -1,0 +1,199 @@
+.desktop-24-child {
+  position: absolute;
+  width: 70.9%;
+  top: 11.73rem;
+  right: 7.47%;
+  left: 21.63%;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 0.06rem;
+}
+.udhetim5 {
+  position: relative;
+  display: inline-block;
+  width: 3.06rem;
+  flex-shrink: 0;
+}
+.frame4 {
+  background-color: var(--color-red);
+  width: 5.06rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-2xs);
+  box-sizing: border-box;
+}
+.nentor-2023 {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  width: 5.31rem;
+  flex-shrink: 0;
+}
+.frame-parent25 {
+  width: 10.31rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.udhetim-ne-shengjergj {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+}
+.frame-parent24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-10xs);
+  z-index: 0;
+}
+.frame-child11 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 0.19rem;
+  height: 0.19rem;
+}
+.ellipse-parent9,
+.frame-child14 {
+  position: absolute;
+  margin: 0 !important;
+}
+.ellipse-parent9 {
+  width: 0.88%;
+  top: 0.69rem;
+  right: 3.23%;
+  left: 95.89%;
+  height: 0.81rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  z-index: 1;
+  cursor: pointer;
+}
+.frame-child14 {
+  top: -1.06rem;
+  left: 0.63rem;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 0.19rem;
+  height: 0.19rem;
+  z-index: 2;
+}
+.fshije {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.frame3,
+.fshije-parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.fshije-parent {
+  margin: 0 !important;
+  position: absolute;
+  width: 23.75%;
+  top: 1.5rem;
+  right: 5.57%;
+  left: 70.67%;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  padding: var(--padding-9xs) var(--padding-lgi);
+  gap: var(--gap-10xs);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  color: var(--color-black);
+}
+.frame3 {
+  flex: 1;
+  height: 13.31rem;
+  padding: var(--padding-293xl) var(--padding-11xl) var(--padding-7xs)
+    var(--padding-3xs);
+  position: relative;
+  gap: var(--gap-2xs);
+  max-width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px black solid;
+  background-position: top;
+}
+
+.imagePostim {
+  position: absolute;
+  top: 0%;
+  height: 20rem;
+  width: 110%;
+  left: -5%;
+}
+.frame-parent22,
+.frame-parent23 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent23 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-22xl);
+}
+.frame-parent22 {
+  position: absolute;
+  width: 76.74%;
+  top: 18.44rem;
+  right: 2.99%;
+  left: 20.28%;
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.desktop-24 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 69rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.goleft1 {
+  width: 20px;
+  height: 20px;
+  border-left: 10px black solid;
+  border-bottom: 10px black solid;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  rotate: 45deg;
+  cursor: pointer;
+}
+.goright1 {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-left: 10px black solid;
+  border-bottom: 10px black solid;
+  position: absolute;
+  top: 93%;
+  left: 60%;
+  rotate: -135deg;
+}

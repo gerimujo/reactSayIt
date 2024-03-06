@@ -1,0 +1,138 @@
+.frame-child66 {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 0.19rem;
+  height: 0.19rem;
+}
+.ellipse-parent36 {
+  position: absolute;
+  height: 26.53%;
+  width: 0.28%;
+  top: 2.04%;
+  right: 0;
+  bottom: 71.43%;
+  left: 102.72%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  cursor: pointer;
+  z-index: 5;
+}
+.fshije6 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.fshije-parent4 {
+  position: absolute;
+  height: 79.59%;
+  width: 8.01%;
+  top: 20.41%;
+  right: 0.75%;
+  bottom: 0;
+  left: 93.63%;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-12xs);
+  text-align: center;
+  font-size: var(--font-size-4xs);
+}
+.div,
+.div1,
+.geri-mujo,
+.gerimujohotmailcom,
+.po,
+.tbu,
+.tirana,
+.universitet {
+  position: absolute;
+  width: 7.82%;
+  top: 4.08%;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.div,
+.div1,
+.gerimujohotmailcom,
+.po,
+.tbu,
+.tirana,
+.universitet {
+  width: 3.2%;
+  left: 11.59%;
+}
+.div1,
+.gerimujohotmailcom,
+.po,
+.tbu,
+.tirana,
+.universitet {
+  width: 8.29%;
+  left: 18.53%;
+}
+.div1,
+.gerimujohotmailcom,
+.po,
+.tbu,
+.tirana {
+  width: 10.93%;
+  left: 28.28%;
+}
+.div1,
+.gerimujohotmailcom,
+.po,
+.tirana {
+  left: 42.6%;
+}
+.div1 {
+  left: 44%;
+}
+.gerimujohotmailcom,
+.po,
+.tirana {
+  width: 19.48%;
+  left: 59.93%;
+}
+.tirana {
+  left: 67%;
+}
+
+.po,
+.tirana {
+  width: 10.84%;
+  top: 2.04%;
+  left: 73.42%;
+}
+.po {
+  top: 0;
+  left: 90.77%;
+}
+.component-44 {
+  position: relative;
+  width: 73.68%;
+  top: 1rem;
+  right: 5.42%;
+  left: 22%;
+  height: 3.06rem;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+#email {
+  overflow: auto;
+}
+#vendbanim1 {
+  left: 78%;
+}
